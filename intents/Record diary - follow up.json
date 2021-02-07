@@ -1,0 +1,73 @@
+{
+  "id": "d71da5a1-d063-447b-ae31-e9343064cb28",
+  "parentId": "1dfee58b-f5bc-472d-b801-6ccff614d157",
+  "rootParentId": "1dfee58b-f5bc-472d-b801-6ccff614d157",
+  "name": "Record diary - follow up",
+  "auto": true,
+  "contexts": [
+    "Recorddiary-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Recorddiary.Recorddiary-custom",
+      "affectedContexts": [
+        {
+          "name": "Recorddiary-followup-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a967ada4-099f-4ad9-991f-49861d668de9",
+          "name": "ordinal",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "value": "$ordinal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a75347c5-ad87-4f8b-a570-d3b84b84aac7",
+          "name": "ordinal1",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "value": "$ordinal1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cool, do you have anything else to record?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

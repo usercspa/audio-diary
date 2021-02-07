@@ -1,0 +1,40 @@
+{
+  "id": "26c9221f-59f6-4cf0-a19a-d9e99b0bb227",
+  "parentId": "d71da5a1-d063-447b-ae31-e9343064cb28",
+  "rootParentId": "1dfee58b-f5bc-472d-b801-6ccff614d157",
+  "name": "Record diary - follow up - end",
+  "auto": true,
+  "contexts": [
+    "Recorddiary-followup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Recorddiary.Recorddiary-custom.Recorddiary-followup-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cool, see you tomorrow!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a6f62697-34f7-456e-9c02-c729268e0e2c",
+  "parentId": "d71da5a1-d063-447b-ae31-e9343064cb28",
+  "rootParentId": "1dfee58b-f5bc-472d-b801-6ccff614d157",
+  "name": "Record diary - follow up - continue",
+  "auto": true,
+  "contexts": [
+    "Recorddiary-followup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Recorddiary.Recorddiary-custom.Recorddiary-followup-custom",
+      "affectedContexts": [
+        {
+          "name": "Recorddiary-followup-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Go ahead"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

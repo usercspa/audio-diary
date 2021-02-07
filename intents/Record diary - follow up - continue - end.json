@@ -1,0 +1,40 @@
+{
+  "id": "f97b8a6d-3227-46e9-8a5b-fcc8e2ce3a4b",
+  "parentId": "a6f62697-34f7-456e-9c02-c729268e0e2c",
+  "rootParentId": "1dfee58b-f5bc-472d-b801-6ccff614d157",
+  "name": "Record diary - follow up - continue - end",
+  "auto": true,
+  "contexts": [
+    "Recorddiary-followup-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Recorddiary.Recorddiary-custom.Recorddiary-followup-custom.Recorddiary-followup-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "All recorded, goodbye!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
