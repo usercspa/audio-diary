@@ -22,11 +22,21 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     agent.add(`I'm sorry, can you try again?`);
   }
 
+  function diary(agent) {
+    agent.add(`Tell me three positive things that happened today`);
+    agent.add(`Tell me about your day`);
+  }
+
+  function followup(agent) {
+    agent.add(`Do you have anything more to add?`);
+  }
+
+
   // Run the proper function handler based on the matched Dialogflow intent name
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
-  // intentMap.set('your intent name here', yourFunctionHandler);
-  // intentMap.set('your intent name here', googleAssistantHandler);
+  intentMap.set('Record diary', diary);
+  intentMap.set('Record diary - follow up', followup);
   agent.handleRequest(intentMap);
 });
